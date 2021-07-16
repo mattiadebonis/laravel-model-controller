@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+#movies {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#movies .movie {
+  width: calc(100%/6 - 15px);
+  background-color: aquamarine;
+  padding: 15px;
+  margin: 15px;
+}
+

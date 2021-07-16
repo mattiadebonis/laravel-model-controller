@@ -11,11 +11,10 @@ class Moviecontroller extends Controller
 
         $title= "i nostri film";
         $movies = Movie::all();
-        dd($movies);
 
 
 
 
-        return view("home",compact("title"));
+        return view("home",compact("movies"));
     }
 }
